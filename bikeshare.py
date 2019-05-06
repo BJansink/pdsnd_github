@@ -126,11 +126,11 @@ def trip_duration_stats(df):
 
     # TO DO: display total travel time
     sumtravel = df['Trip Time'].sum()
-    days, seconds = sumtravel.days, sumtravel.seconds
+    tripdays, seconds = sumtravel.days, sumtravel.seconds
     hours = days * 24 + seconds // 3600
     minutes = (seconds % 3600) // 60
     seconds = seconds % 60
-    print("People travelled for {} day(s), {} hour(s) {} minute(s) and {} second(s)".format(days,hours,minutes,seconds))
+    print("People travelled for {} day(s), {} hour(s) {} minute(s) and {} second(s)".format(tripdays,hours,minutes,seconds))
 
     # TO DO: display mean travel time
     meantravel = df["Trip Time"].mean()
