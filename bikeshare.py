@@ -177,6 +177,7 @@ def user_stats(df):
 def main():
     while True:
         city, month, day = get_filters()
+        #Sanity check to see if user really wanted to view this city/month/day combination
         sureondata = input('Just to be sure, you want to see data for {} for month {} and day {}.\n Are you sure you like to see data for these filters? [yes/no]: '.format(city,month,day))
         if sureondata != 'yes':
             city, month, day = get_filters()
