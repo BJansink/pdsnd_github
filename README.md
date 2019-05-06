@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+This file was starter on May 6th 2019
 
 ### Project Title
-Replace the Project Title
+Bikesharing data
 
 ### Description
-Describe what your project is about and what it does
+This code enables users to explore bike sharing data for New York, Chicago or Washington
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Credits go to Udacity for arming me with the skills and csv files needed!
