@@ -115,7 +115,7 @@ def station_stats(df):
     print("The most frequently combined start and end station are: {}".format(df['Combo Trip'].mode()[0]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*38)
 
 
 def trip_duration_stats(df):
@@ -141,7 +141,7 @@ def trip_duration_stats(df):
     print("The average travel time is {} day(s), {} hour(s), {} minute(s) and {} second(s)".format(days,hours,minutes,seconds))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*38)
 
 
 def user_stats(df):
@@ -169,7 +169,7 @@ def user_stats(df):
     else:
         print('\nUnfortunately this city does not keep information on users\' birthday\n')
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*38)
 
 
 def main():
